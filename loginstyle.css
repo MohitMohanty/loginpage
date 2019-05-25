@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding :0;
+    background : rgb(52, 163, 135);
+    color :white;
+}
+.box{
+    width:300px;
+    height: 350px;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #58f071;
+    padding :40px 40px;;
+    margin: 20 px auto;
+    text-align: center;
+    box-shadow: 2em -1em rgb(2, 123, 123);  
+}
+.box h1{
+    text-transform: uppercase;
+    font-weight: 400;
+    outline: black;
+    font-family: sans-serif;
+}
+form input{
+    background: none;
+    width: 200px;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    color: white;
+    outline: none;
+    border-radius: 30px;
+    text-align: center;
+    transition:0.25s;
+}
+input[type="text"]:focus,input[type="password"]:focus{
+    width:250px;
+    color: rgb(6, 71, 23);
+    outline-color: rgb(1, 85, 15);
+    font-size: 20px;
+    border-color: rgb(36, 228, 196);
+    
+}
+form input[type="submit"]{
+    width: 80px;
+    text-transform: uppercase;
+    background: #91e99f;
+    color: black;
+    
+}
+form input[type="submit"]:hover{
+    background: rgb(2, 123, 123);
+    cursor: pointer;
+}
